@@ -4,8 +4,8 @@ This is a simple Godot Android plugin that allows you to read the view intent UR
 
 ## Installation & Usage
 
-1. Enable (Android Custom Build)[https://docs.godotengine.org/en/stable/getting_started/workflow/export/android_custom_build.html] for your project
-2. Grab and extract the latest binary and plugin config from the (releases tab)[https://github.com/timoschwarzer/godot-applinks/releases] into `res://android/plugins/`
+1. Enable [Android Custom Build](https://docs.godotengine.org/en/stable/getting_started/workflow/export/android_custom_build.html) for your project
+2. Grab and extract the latest binary and plugin config from the [releases tab](https://github.com/timoschwarzer/godot-applinks/releases) into `res://android/plugins/`
 3. In your Anndroid export settings, make sure the AppLinks plugin is enabled
 4. Add a new Intent Filter to your `res://android/build/AndroidManifest.xml`, e.g.:
    ```xml
@@ -41,7 +41,7 @@ func _notification(what):
 ## Compiling manually
 
 1. Open this project in Android Studio
-2. Grab the matching `godot-lib.<version>.<target>.aar` from the (Godot Engine downloads page)[https://godotengine.org/download]
-3. Add the downloaded `godot-lib.<version>.<target>.aar` as an Android Library, (see here)[https://developer.android.com/studio/projects/android-library#AddDependency]
+2. Grab the matching `godot-lib.<version>.<target>.aar` from the [Godot Engine downloads page](https://godotengine.org/download)
+3. Add the downloaded `godot-lib.<version>.<target>.aar` as an Android Library, [see here](https://developer.android.com/studio/projects/android-library#AddDependency)
 4. In Android Studio, click Build > Make Project
 5. Once finished, you'll find the generated `aar` file in `./app/build/outputs/aar`
