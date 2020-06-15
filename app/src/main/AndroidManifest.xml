@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.timoschwarzer.godotengine.applinks">
+
+    <application>
+        <meta-data
+            android:name="org.godotengine.plugin.v1.AppLinks"
+            android:value="com.timoschwarzer.godotengine.applinks.AppLinks" />
+    </application>
+
+</manifest>
