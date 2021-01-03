@@ -1,3 +1,2 @@
-include ':godot-lib.release'
 include ':app'
 rootProject.name = "Godot AppLinks"

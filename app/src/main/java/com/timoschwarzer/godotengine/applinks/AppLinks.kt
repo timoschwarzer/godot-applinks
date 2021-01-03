@@ -9,7 +9,9 @@ class AppLinks(godot: Godot?) : GodotPlugin(godot) {
     }
 
     fun getUrl(): String? {
-        return Godot.getCurrentIntent()?.dataString
+        val url = Godot.getCurrentIntent()?.dataString
+        Godot.getCurrentIntent().data = null
+        return url
     }
 
     override fun getPluginMethods(): MutableList<String> {
